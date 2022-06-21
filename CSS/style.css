@@ -1,0 +1,260 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility class */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.clr{
+    clear: both;
+}
+.showcase-heading{
+    color: orangered;
+}
+.lead{
+    font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border: none;
+}
+.bg-dark{
+    background-color:#333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border: none;
+}
+/* Body */
+html body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    line-height: 1.8em;
+}
+/* Navbar section */
+#navbar{
+    background-color:black;
+    padding: 10px;
+    overflow: auto;
+}
+#navbar .logo a{
+    float: left;
+    color: #fff;
+}
+#navbar .container ul{    
+    float: right;
+    
+}
+#navbar .container ul li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+#navbar .container ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+   
+}
+#navbar ul li a:hover,
+#navbar ul li a{
+    
+    color: orangered;
+}
+/* Showcase */
+#showcase{
+    background: url(../images/showcase.jpg) no-repeat center center/cover;
+    text-align: center;
+    height: 600px;
+}
+#showcase .container{
+    padding-top: 90px;
+}
+#showcase .container h1{
+    font-size: 50px;
+    color: #fff;
+} 
+#showcase .container p{
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5em;
+}
+#showcase .container a{
+    margin-top: 50px;
+}
+#showcase .container a:hover{
+    background-color: orangered;
+    color: black;
+}
+
+/* Section */
+#home-info{
+    height: 400px;
+}
+#home-info .content-img{
+    background: url(../images/photo-1.jpg) no-repeat 0 0/cover;
+    float: left;    
+    width: 50%;
+    min-height: 100%;   
+}
+
+#home-info .home-content{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding:50px 50px;
+    height: 100%;
+}
+#home-info .home-content h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home-info .home-content p{
+font-size: 14px;
+padding-top: 10px;
+text-align: justify;
+}
+/* #home-info .home-content a{
+    
+} */
+#home-info .home-content a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+/* Feature section */
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+    
+}
+.box-hero{
+    background-color: orangered;
+    color: black;
+}
+
+/* About Page */
+section #about-content{
+    height: 400px;
+    background: color #cdd5dd;
+}
+#about-content .content-left{
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 30px 0;
+}
+#about-content .content-left h1{
+    font-size: 40px;
+}
+#about-content .content-left p{
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+} 
+
+#about-content .content-right{
+    float: right;
+    width: 50%;
+    padding: 50px 100px;
+}
+#about-content .content-right img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+
+/* Guest section */
+#guest-say{
+    background: url(..//images/test-bg.jpg) no-repeat center center/cover;
+    height: 600px;
+    text-align: center;    
+}
+.guest-content .guest-hero{
+    padding: 40px;
+    border: 1px solid;
+    background-color: orangered;
+    display: block;
+    margin: 15px 20px;
+}
+.guest-content h1{
+    color: #fff;
+    margin-top: 20px;
+}
+.guest-content .guest-hero img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Contac Form */
+#contact-form{
+    padding: 30px;
+}
+#contact-form h1{
+    font-size: 40px;
+}
+.form-main label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form-main input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form-main input:focus,
+.form-main textarea:focus{
+    outline: none;
+    border-color: orangered;
+}
+.form-main textarea{
+    width: 100%;
+}
+
+/* Form Submit button */
+.form-submition a{
+    background-color: black;
+    color:#fff;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.form-submition a:hover{
+    background-color: orangered;
+    color: black;
+}
+
+
+/* Footer section */
+#main-footer{
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
